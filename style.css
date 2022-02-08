@@ -1,0 +1,29 @@
+body{
+    background-color:#282828;
+}
+h1{
+    color:aliceblue;
+    text-align:center;
+}
+.btn-dark
+{
+    background-color: #282828;
+    color: turquoise;
+    border: 1px solid turquoise;
+    margin-right:10px;
+}
+.sorting 
+{
+    float : right;
+}
+.btn-1
+{
+    background-color: #282828;
+    color: cyan;
+    border: 1px solid cyan;
+    margin-left: 20;
+}
+.btn:hover{
+    color:aquamarine;
+    border: 1px solid aquamarine;
+}
