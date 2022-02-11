@@ -20,8 +20,8 @@ async function bubble()
             el[j+1].style.background = "red";
             if(parseInt(el[j].style.height) > parseInt(el[j+1].style.height))
             {
-                await new Promise(resolve=>setTimeout(()=>{resolve(), delay(2)}));
-            swap(el[j], el[j+1]);
+                await waitforme(delay);
+                swap(el[j], el[j+1]);
             }
             el[j].style.background = "cyan";
             el[j+1].style.background = "cyan";
